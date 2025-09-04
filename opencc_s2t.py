@@ -12,7 +12,6 @@ else:
     script_path = os.path.abspath(__file__)
     filepath = os.path.dirname(script_path)
 
-
 def convert_to_traditional():
     """
     開啟檔案選取對話框，讀取簡體中文檔案，
@@ -45,7 +44,6 @@ def convert_to_traditional():
         messagebox.showinfo("成功", f"檔案已成功轉換並儲存於：\n{new_filepath}")
     except Exception as e:
         messagebox.showerror("錯誤", f"轉換過程中發生錯誤：\n{e}")
-
 
 # --- GUI 介面設定 ---
 # 建立主視窗

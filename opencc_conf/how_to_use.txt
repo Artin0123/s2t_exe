@@ -1,0 +1,3 @@
+pip install opencc-python-reimplemented
+mc-s2twp.json放到.venv\Lib\site-packages\opencc\config
+minecraft_terms.txt放到.venv\Lib\site-packages\opencc\dictionary
